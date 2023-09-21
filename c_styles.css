@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2d9d9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin: 10% auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(116, 113, 113, 0.2);
+    max-width: 300px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #e8aaaa;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b30074;
+}
+
+#country-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#country-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#country-flag {
+    max-width: 90px;
+    margin-top: 10px;
+}
